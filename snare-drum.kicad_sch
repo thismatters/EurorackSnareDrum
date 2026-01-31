@@ -4010,7 +4010,7 @@
     (property "Reference" "R32" (at 274.32 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "33K" (at 274.32 71.12 90)
+    (property "Value" "1K" (at 274.32 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 274.32 76.708 90)
