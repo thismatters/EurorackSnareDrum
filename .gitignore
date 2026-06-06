@@ -6,3 +6,4 @@ sym-lib-table
 *.lck
 *.kicad_sch-bak
 \#auto_saved_files\#
+.history
