@@ -2314,7 +2314,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Eurorack:AudioJack2_Tayda_A-2566"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2911,7 +2911,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "eurorack:PinHeader_2x05_P2.54mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3326,7 +3326,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "eurorack:Mech-AudioJack-Hole-Input"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4257,7 +4257,7 @@
 		(uuid "8c26942e-243e-450f-8828-a3e32bfa99d5")
 	)
 	(junction
-		(at 125.095 179.07)
+		(at 125.73 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cd5b945-e702-4469-ace5-48bd7ab01507")
@@ -4303,12 +4303,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4392345-1333-4aa0-81c5-311960bcc7b1")
-	)
-	(junction
-		(at 137.16 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b628016d-b3d9-4299-8fa0-f2e112567547")
 	)
 	(junction
 		(at 162.56 111.76)
@@ -4444,6 +4438,10 @@
 		(at 26.67 27.94)
 		(uuid "ee5d8bab-71ab-4662-9e6a-d1fe57839229")
 	)
+	(no_connect
+		(at 26.67 66.04)
+		(uuid "f3f9655f-5d82-469e-9eaf-531a57f4395a")
+	)
 	(wire
 		(pts
 			(xy 92.71 40.64) (xy 92.71 33.02)
@@ -4483,16 +4481,6 @@
 			(type default)
 		)
 		(uuid "047c7f97-926c-4fdb-a766-62ea65d2d86b")
-	)
-	(wire
-		(pts
-			(xy 137.16 50.8) (xy 137.16 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04ba9a6b-e8fb-4138-86a1-34ebc033756d")
 	)
 	(wire
 		(pts
@@ -5326,16 +5314,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 50.8) (xy 137.16 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaab81ea-cd91-42cd-9a16-cf517afe28d2")
-	)
-	(wire
-		(pts
 			(xy 77.47 88.9) (xy 74.93 88.9)
 		)
 		(stroke
@@ -5353,6 +5331,16 @@
 			(type default)
 		)
 		(uuid "acda3df8-c538-4c6a-946a-c77733c61382")
+	)
+	(wire
+		(pts
+			(xy 133.35 50.8) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeac6c45-b534-4675-b467-934b51e4b53c")
 	)
 	(wire
 		(pts
@@ -5884,6 +5872,16 @@
 		)
 		(uuid "fd74172d-3adb-4d22-8530-e69421c847cc")
 	)
+	(wire
+		(pts
+			(xy 129.54 50.8) (xy 129.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff13869e-393e-4600-a9ed-676b23db5004")
+	)
 	(label "PITCH_CV"
 		(at 242.57 80.01 90)
 		(effects
@@ -6179,8 +6177,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 161.29 171.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6257,8 +6256,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 161.29 49.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6336,8 +6336,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 166.37 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6417,8 +6418,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual NPN transistor, 6 pin package"
 			(at 133.35 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6532,8 +6534,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 129.54 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6610,8 +6613,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 149.86 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6689,8 +6693,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 96.52 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6770,8 +6775,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 210.82 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6850,8 +6856,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 156.21 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6931,8 +6938,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 184.15 64.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7010,8 +7018,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 129.54 24.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7113,8 +7122,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 34.29 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7190,8 +7200,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 64.77 120.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7268,8 +7279,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual PNP transistor, 6 pin package"
 			(at 113.03 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7382,8 +7394,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 113.03 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7459,8 +7472,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 262.89 146.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7537,8 +7551,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 96.52 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7640,8 +7655,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 153.67 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7720,8 +7736,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 63.5 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7800,8 +7817,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 120.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7877,8 +7895,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 135.89 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7954,8 +7973,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 127 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8032,8 +8052,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 172.72 96.52 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8113,8 +8134,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 48.26 162.56 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8190,8 +8212,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 124.46 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8271,8 +8294,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 36.83 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8347,8 +8371,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 200.66 63.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8485,8 +8510,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 161.29 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8561,8 +8587,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 176.53 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8700,8 +8727,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 115.57 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8803,8 +8831,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 36.83 22.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8881,8 +8910,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 36.83 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8958,8 +8988,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 35.56 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9001,7 +9032,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "B100K"
 			(at 133.35 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9011,7 +9042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Eurorack:Potentiometer_RV16AF-41-15R1"
 			(at 133.35 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9033,8 +9064,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 133.35 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9117,8 +9149,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual NPN transistor, 6 pin package"
 			(at 109.22 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9189,7 +9222,7 @@
 		(fields_autoplaced yes)
 		(uuid "386a5915-d50a-44d7-99e1-535fb641b301")
 		(property "Reference" "H7"
-			(at 36.83 175.26 0)
+			(at 36.83 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9199,8 +9232,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "tune"
-			(at 36.83 177.8 0)
+		(property "Value" "pitch"
+			(at 36.83 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9232,8 +9265,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 34.29 177.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9309,8 +9343,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 193.04 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9387,8 +9422,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 34.29 162.56 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9465,8 +9501,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 210.82 114.3 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9567,8 +9604,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 96.52 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9647,8 +9685,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 227.33 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9724,8 +9763,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 63.5 26.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9804,8 +9844,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 162.56 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9883,8 +9924,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 237.49 29.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9962,8 +10004,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 149.86 24.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10042,8 +10085,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 35.56 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10119,8 +10163,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10196,8 +10241,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 128.27 113.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10276,8 +10322,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 262.89 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10396,8 +10443,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 195.58 95.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10473,8 +10521,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 231.14 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10508,7 +10557,7 @@
 		(fields_autoplaced yes)
 		(uuid "50592001-41c7-4867-af2d-3147bb279afe")
 		(property "Reference" "H8"
-			(at 36.83 182.88 0)
+			(at 36.83 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10518,8 +10567,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "pitch"
-			(at 36.83 185.42 0)
+		(property "Value" "snappy"
+			(at 36.83 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10551,8 +10600,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 34.29 185.42 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10629,8 +10679,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 16.51 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10706,8 +10757,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 73.66 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10785,8 +10837,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 210.82 99.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10870,8 +10923,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
 			(at 163.83 163.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10974,8 +11028,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 142.24 24.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11054,8 +11109,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 58.42 116.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11135,8 +11191,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 240.03 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11214,8 +11271,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 218.44 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11352,8 +11410,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 127 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11429,8 +11488,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 242.57 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11506,8 +11566,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 77.47 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11583,8 +11644,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 172.72 100.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11659,8 +11721,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11740,8 +11803,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 48.26 177.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11818,8 +11882,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 168.91 179.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11845,8 +11910,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 242.57 83.82 0)
-		(mirror y)
+		(at 242.57 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11856,17 +11920,6 @@
 		(dnp no)
 		(uuid "67a3aa04-b2d3-4f3b-951a-5768b4e12686")
 		(property "Reference" "RV4"
-			(at 245.11 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B100K"
 			(at 245.11 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11877,7 +11930,18 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Eurorack:Potentiometer_RV16AF-41-15R1"
+		(property "Value" "100K"
+			(at 245.11 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 242.57 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11899,8 +11963,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 242.57 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11981,8 +12046,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 274.32 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12059,8 +12125,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 110.49 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12139,8 +12206,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 262.89 161.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12215,8 +12283,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
 			(at 21.59 63.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12320,8 +12389,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 113.03 58.42 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12398,8 +12468,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 86.36 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12480,8 +12551,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
 			(at 144.78 163.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12586,8 +12658,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 262.89 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12665,8 +12738,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 262.89 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12745,8 +12819,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 115.57 113.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12826,8 +12901,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 16.51 185.42 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12903,8 +12979,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 148.59 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12980,8 +13057,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 129.54 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13056,8 +13134,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 200.66 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13137,8 +13216,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 162.56 191.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13214,8 +13294,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 57.15 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13290,8 +13371,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 176.53 29.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13371,8 +13453,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 48.26 185.42 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13395,8 +13478,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 172.72 88.9 0)
-		(mirror y)
+		(at 172.72 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13404,10 +13486,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "892472b8-c786-4022-a22a-424b9c07d0f0")
 		(property "Reference" "RV1"
-			(at 175.26 87.63 0)
+			(at 175.26 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13418,7 +13499,7 @@
 			)
 		)
 		(property "Value" "B1K"
-			(at 175.26 90.17 0)
+			(at 175.26 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13450,8 +13531,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 172.72 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13534,8 +13616,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 254 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13673,8 +13756,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 48.26 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13750,8 +13834,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 96.52 129.54 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13828,8 +13913,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 172.72 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13908,8 +13994,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 73.66 46.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13987,8 +14074,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 109.22 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14036,7 +14124,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.095 179.07 90)
+		(at 125.73 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14047,7 +14135,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cdc9e33-f30a-4356-ba27-ad4d2f00d950")
 		(property "Reference" "#PWR02"
-			(at 131.445 179.07 0)
+			(at 132.08 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14058,7 +14146,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.905 179.07 90)
+			(at 129.54 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14069,7 +14157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.095 179.07 0)
+			(at 125.73 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14080,7 +14168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.095 179.07 0)
+			(at 125.73 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14090,8 +14178,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 125.095 179.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 179.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14166,8 +14255,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 54.61 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14246,8 +14336,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 149.86 171.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14323,8 +14414,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 255.27 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14401,8 +14493,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 16.51 193.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14478,8 +14571,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 71.12 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14559,8 +14653,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 234.95 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14586,7 +14681,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 200.66 44.45 90)
+		(at 200.66 44.45 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14637,8 +14733,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 200.66 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14667,7 +14764,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 125.095 182.88 0)
+		(at 125.73 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14678,7 +14775,7 @@
 		(fields_autoplaced yes)
 		(uuid "a73375f2-a7ca-41b5-85ac-08563414bacb")
 		(property "Reference" "C2"
-			(at 128.905 180.721 0)
+			(at 129.54 180.721 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14689,7 +14786,7 @@
 			)
 		)
 		(property "Value" "22u 50V"
-			(at 128.905 183.261 0)
+			(at 129.54 183.261 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14700,7 +14797,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 126.0602 186.69 0)
+			(at 126.6952 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14711,7 +14808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.095 182.88 0)
+			(at 125.73 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14721,8 +14818,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 125.095 182.88 0)
+		(property "Description" "Polarized capacitor"
+			(at 125.73 182.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14800,8 +14898,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 154.94 189.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14926,8 +15025,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 133.35 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15007,8 +15107,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 16.51 177.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15083,8 +15184,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 180.34 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15163,8 +15265,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 162.56 129.54 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15239,8 +15342,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
 			(at 21.59 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15343,8 +15447,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 248.92 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15369,86 +15474,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 26.67 66.04 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7f5bb66-fd4f-40c1-ba82-8bd182a89c0b")
-		(property "Reference" "#PWR039"
-			(at 22.86 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 30.48 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c2376d9-b88c-41f5-bda8-7e0511ccd9e3")
-		)
-		(instances
-			(project "snare-drum"
-				(path "/54607e40-577c-4def-b17c-96859aef0795"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-12V")
-		(at 125.095 186.69 180)
+		(at 125.73 186.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15459,7 +15486,7 @@
 		(fields_autoplaced yes)
 		(uuid "b812eb47-92d0-4074-bc8c-769af0a57c59")
 		(property "Reference" "#PWR06"
-			(at 125.095 189.23 0)
+			(at 125.73 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15470,7 +15497,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 125.095 191.77 0)
+			(at 125.73 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15480,7 +15507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.095 186.69 0)
+			(at 125.73 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15491,7 +15518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.095 186.69 0)
+			(at 125.73 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15501,8 +15528,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 125.095 186.69 0)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 125.73 186.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15525,7 +15553,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 125.095 175.26 0)
+		(at 125.73 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15536,7 +15564,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9fc8849-70d7-4a56-bd6a-15616ed48d46")
 		(property "Reference" "C1"
-			(at 128.905 173.101 0)
+			(at 129.54 173.101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15547,7 +15575,7 @@
 			)
 		)
 		(property "Value" "22u 50V"
-			(at 128.905 175.641 0)
+			(at 129.54 175.641 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15558,7 +15586,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 126.0602 179.07 0)
+			(at 126.6952 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15569,7 +15597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.095 175.26 0)
+			(at 125.73 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15579,8 +15607,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 125.095 175.26 0)
+		(property "Description" "Polarized capacitor"
+			(at 125.73 175.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15658,8 +15687,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 219.71 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15739,8 +15769,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 77.47 46.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15820,8 +15851,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 104.14 26.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15902,8 +15934,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual NPN transistor, 6 pin package"
 			(at 198.12 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16014,8 +16047,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 90.17 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16095,8 +16129,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 36.83 41.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16171,8 +16206,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 179.07 111.76 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16252,8 +16288,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 139.7 179.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16331,8 +16368,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
 			(at 21.59 25.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16436,8 +16474,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 77.47 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16514,8 +16553,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 36.83 99.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16592,8 +16632,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NPN transistor, collector/base/emitter"
 			(at 60.96 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16643,7 +16684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "snappy"
+		(property "Value" "pitch cv"
 			(at 36.83 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16676,8 +16717,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 34.29 193.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16751,8 +16793,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
 			(at 85.09 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16890,8 +16933,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 162.56 189.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16914,7 +16958,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 125.095 171.45 0)
+		(at 125.73 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16925,7 +16969,7 @@
 		(fields_autoplaced yes)
 		(uuid "da18ea65-e0aa-40dc-9099-42d6df2825c2")
 		(property "Reference" "#PWR04"
-			(at 125.095 175.26 0)
+			(at 125.73 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16936,7 +16980,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 125.095 166.37 0)
+			(at 125.73 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16946,7 +16990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.095 171.45 0)
+			(at 125.73 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16957,7 +17001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.095 171.45 0)
+			(at 125.73 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16967,8 +17011,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 125.095 171.45 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 125.73 171.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17044,8 +17089,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 74.93 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17165,8 +17211,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual NPN transistor, 6 pin package"
 			(at 158.75 24.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17278,8 +17325,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17359,8 +17407,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 275.59 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17479,8 +17528,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 63.5 22.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17557,8 +17607,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 172.72 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17637,8 +17688,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 35.56 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17713,8 +17765,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
 			(at 21.59 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17818,8 +17871,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 158.75 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17895,8 +17949,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 161.29 19.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17974,8 +18029,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual PNP transistor, 6 pin package"
 			(at 127 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18087,8 +18143,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 69.85 30.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18166,8 +18223,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
 			(at 21.59 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18271,8 +18329,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 55.88 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18349,8 +18408,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 231.14 100.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18452,8 +18512,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 64.77 116.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18555,8 +18616,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 48.26 193.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18632,8 +18694,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 104.14 22.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18709,8 +18772,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 111.76 38.1 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
